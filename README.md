@@ -46,6 +46,9 @@ Log In: Access your dashboard with secure authentication.
 Manage Records: Add, view, edit, and delete your income and expense records.
 View Summaries: Instantly see your financial health through visual summaries.
 
+# sign up 
+<img src="https://github.com/AsT002/finance-app/blob/main/Screenshot%202024-08-21%20at%206.57.05%20PM.png">
+
 # License
 This project is licensed under the MIT License.
 
