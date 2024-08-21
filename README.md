@@ -11,8 +11,11 @@ High Performance: Capable of supporting over 1,000 concurrent users with respons
 
 # Technologies Used
 Frontend: HTML, CSS, JavaScript
+
 Backend: Node.js, Express.js
+
 Database: PostgreSQL
+
 Security: Bcrypt.js for password hashing, JWT for secure authentication
 
 # Installation
