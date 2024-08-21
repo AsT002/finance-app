@@ -49,6 +49,9 @@ View Summaries: Instantly see your financial health through visual summaries.
 # sign up 
 <img src="https://github.com/AsT002/finance-app/blob/main/Screenshot%202024-08-21%20at%206.57.05%20PM.png">
 
+# sign in
+<img src="https://github.com/AsT002/finance-app/blob/main/Screenshot%202024-08-21%20at%206.57.13%20PM.png">
+
 # License
 This project is licensed under the MIT License.
 
