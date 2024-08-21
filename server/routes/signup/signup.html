@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for Financial Dashboard</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <label style="color: greenyellow;"><b>Sign Up</b></label>
+        <hr>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" class="inputBox" id="username" placeholder="username">
+            <label for="password">Password</label>
+            <input type="password" class="inputBox" id="password" placeholder="password">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" class="inputBox" id="confirm-password" placeholder="confirm password">
+            <br>
+            <label for="toggle">Show Password</label>
+            <input type="checkbox" id="toggle" onclick="togglePassword()">
+            <button type="button" class="signup" onclick="signUp()">
+                <span>Sign Up</span>
+            </button>
+            <a href="/login" style="color:aqua">Already have an account?</a>
+        </form>
+        <p class="err" id="error-message"></p>
+    </div>
+    <script src="./signup.js"></script>
+</body>
+</html>

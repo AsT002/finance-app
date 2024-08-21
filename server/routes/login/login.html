@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Financial Dashboard</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <label style="color: greenyellow;"><b>Login</b></label>
+        <hr>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" class="inputBox" id="username" placeholder="username">
+            <label for="password">Password</label>
+            <input type="password" class="inputBox" id="password" placeholder="password">
+            <br>
+            <label for="toggle">Show Password</label>
+            <input type="checkbox" id="toggle" onclick="togglePassword()">
+            <button type="button" class="login" onclick="login()">
+                <span>Login</span>
+            </button>
+            <a href="/signup" style="color:aqua">Need to create an account?</a>
+        </form>
+        <p class="err" id="error-message"></p>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
